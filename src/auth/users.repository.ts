@@ -2,7 +2,7 @@ import {
   ConflictException,
   InternalServerErrorException,
 } from '@nestjs/common';
-import { AuthCredentialDto } from 'src/dto/auth-credential.dto';
+import { AuthCredentialDto } from '../dto/auth-credential.dto';
 import { EntityRepository, Repository } from 'typeorm';
 import { User } from './user.entity';
 import * as bcrypt from 'bcrypt';
